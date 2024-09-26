@@ -94,8 +94,8 @@
 			children = (
 				CEC6F13F2CA5555F004E5E6B /* GoogleService-Info.plist */,
 				CEC6F10D2CA54F02004E5E6B /* AppDelegate.swift */,
-				CEC6F10F2CA54F02004E5E6B /* SceneDelegate.swift */,
 				CEC6F1112CA54F02004E5E6B /* ContentView.swift */,
+				CEC6F10F2CA54F02004E5E6B /* SceneDelegate.swift */,
 				CEC6F1132CA54F0F004E5E6B /* Assets.xcassets */,
 				CEC6F1182CA54F0F004E5E6B /* LaunchScreen.storyboard */,
 				CEC6F11B2CA54F0F004E5E6B /* Info.plist */,
