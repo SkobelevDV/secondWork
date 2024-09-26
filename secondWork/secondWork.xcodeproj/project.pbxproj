@@ -13,8 +13,6 @@
 		CEC6F1142CA54F0F004E5E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC6F1132CA54F0F004E5E6B /* Assets.xcassets */; };
 		CEC6F1172CA54F0F004E5E6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC6F1162CA54F0F004E5E6B /* Preview Assets.xcassets */; };
 		CEC6F11A2CA54F0F004E5E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC6F1182CA54F0F004E5E6B /* LaunchScreen.storyboard */; };
-		CEC6F1252CA54F11004E5E6B /* secondWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6F1242CA54F11004E5E6B /* secondWorkTests.swift */; };
-		CEC6F1302CA54F12004E5E6B /* secondWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6F12F2CA54F12004E5E6B /* secondWorkUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +42,8 @@
 		CEC6F1192CA54F0F004E5E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEC6F11B2CA54F0F004E5E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC6F1202CA54F11004E5E6B /* secondWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = secondWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEC6F1242CA54F11004E5E6B /* secondWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondWorkTests.swift; sourceTree = "<group>"; };
-		CEC6F1262CA54F11004E5E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC6F12B2CA54F12004E5E6B /* secondWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = secondWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEC6F12F2CA54F12004E5E6B /* secondWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondWorkUITests.swift; sourceTree = "<group>"; };
-		CEC6F1312CA54F12004E5E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC6F13F2CA5555F004E5E6B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				CEC6F10C2CA54F02004E5E6B /* secondWork */,
-				CEC6F1232CA54F11004E5E6B /* secondWorkTests */,
-				CEC6F12E2CA54F12004E5E6B /* secondWorkUITests */,
 				CEC6F10B2CA54F02004E5E6B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +92,7 @@
 		CEC6F10C2CA54F02004E5E6B /* secondWork */ = {
 			isa = PBXGroup;
 			children = (
+				CEC6F13F2CA5555F004E5E6B /* GoogleService-Info.plist */,
 				CEC6F10D2CA54F02004E5E6B /* AppDelegate.swift */,
 				CEC6F10F2CA54F02004E5E6B /* SceneDelegate.swift */,
 				CEC6F1112CA54F02004E5E6B /* ContentView.swift */,
@@ -116,24 +110,6 @@
 				CEC6F1162CA54F0F004E5E6B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		CEC6F1232CA54F11004E5E6B /* secondWorkTests */ = {
-			isa = PBXGroup;
-			children = (
-				CEC6F1242CA54F11004E5E6B /* secondWorkTests.swift */,
-				CEC6F1262CA54F11004E5E6B /* Info.plist */,
-			);
-			path = secondWorkTests;
-			sourceTree = "<group>";
-		};
-		CEC6F12E2CA54F12004E5E6B /* secondWorkUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CEC6F12F2CA54F12004E5E6B /* secondWorkUITests.swift */,
-				CEC6F1312CA54F12004E5E6B /* Info.plist */,
-			);
-			path = secondWorkUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC6F1252CA54F11004E5E6B /* secondWorkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC6F1302CA54F12004E5E6B /* secondWorkUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
